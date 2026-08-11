@@ -1,0 +1,10 @@
+{
+  "name": "ephraix-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sitemap": "node generate-sitemap.js",
+    "predeploy": "node generate-sitemap.js",
+    "deploy": "wrangler pages deploy ."
+  }
+}
